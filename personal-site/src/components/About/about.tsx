@@ -3,7 +3,7 @@ import React from 'react';
 const About: React.FC = () => {
     return (
       <section>
-        <h3>About</h3>
+        <h3 >About</h3>
         <p>Motivated Software Engineer with 2 years of professional experience. 
           A creative who is able to bring visions to products through code. 
           Possesses the ability to work effectively with small or large teams

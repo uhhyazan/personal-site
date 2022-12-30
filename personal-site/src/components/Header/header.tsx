@@ -3,14 +3,20 @@ import React from 'react';
 const Header: React.FC = () => {
     return (
       <>
-        <div className="flex items-center justify-center h-full">
-          <h1 className="text-2xl text-gray-800">
-            Hey, I'm <a className='font-bold'>Yazan Musleh</a>
-          </h1>
+      <section>
+      <div className="flex items-center justify-center h-full">
+        <div className="text-center">
+          <img
+            src='./personal-site/personal-site/public/images/selfportait.jpg'
+            alt="Head Shot"
+            className="border-full rounded-full h-64 w-64"
+          />
+          <h1 className="text-5xl font-bold text-gray-800">Yazan</h1>
+          <h2 className="text-xl font-semibold text-gray-600">Full-Stack Software Engineer</h2>
         </div>
-        
+      </div>
+      </section>
       </>
-      
     );
   }
 

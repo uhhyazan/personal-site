@@ -10,7 +10,7 @@ interface PortfolioProps { }
 
 const Portfolio: React.FC<PortfolioProps> = () => {
   return (
-    <div className='mx-auto max-w-lg  p-4'>
+    <div className='mx-auto max-w-2xl p-4'>
       <Header />
       <About />
       <Projects />
