@@ -1,6 +1,7 @@
 import React from 'react';
+import ProjectCard from './ProjectCard/projectcard';
 
-interface Project {
+interface ProjectCard {
   id: number;
   title: string;
   imageUrl: string;
@@ -8,7 +9,7 @@ interface Project {
 }
 
 const Projects: React.FC = () => {
-  const projects: Project[] = [
+  const projects: ProjectCard[] = [
     {
       id: 1,
       title: 'Project 1',
@@ -27,20 +28,18 @@ const Projects: React.FC = () => {
       imageUrl: '/project3.png',
       githubUrl: 'https://github.com/user/project3',
     },
-    // additional projects here
   ];
 
   return (
     <section>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
       {projects.map((project) => (
-        <div key={project.id} className="bg-gray-100 rounded-lg shadow-md p-4">
-          <img src={project.imageUrl} alt={project.title} className="w-full rounded-lg" />
-          <h2 className="mt-2 text-xl font-bold text-gray-800">{project.title}</h2>
-          <a href={project.githubUrl} className="mt-2 block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-            View on GitHub
-          </a>
-        </div>
+        <ProjectCard 
+          id={project.id} 
+          title={project.title} 
+          imageUrl={project.imageUrl} 
+          githubUrl={project.githubUrl} 
+        />
       ))}
       </div>
     </section>

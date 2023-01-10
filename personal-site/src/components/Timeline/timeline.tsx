@@ -22,6 +22,19 @@ const Timeline: React.FC = () => {
       role: 'Associate Consultant',
       company: 'Slalom Build',
     },
+    {
+      id: 3,
+      date: 'September 2016 - June 2020',
+      role: 'Undergrad CompSci Novice',
+      company: 'DePaul University',
+    },
+    {
+      id: 4,
+      date: 'September 2014',
+      role: 'Hello World!',
+      company: 'First line of code written',
+    },
+    
     // additional events here
   ];
 
