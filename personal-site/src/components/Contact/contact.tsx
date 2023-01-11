@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from '../Title/title';
 
 interface ContactProps { }
 
@@ -8,8 +9,8 @@ const Contact: React.FC<ContactProps> = () => {
   return (
     <>
     <section>
-      <h1 className="font-bold text-2xl text-center">Let's Chat</h1>
-      <form className="mx-auto max-w-md bg-white p-6 rounded-xl shadow-lg space-x-4">
+      <Title>Let's Chat</Title>
+      <form className="mx-auto max-w-2xl bg-white p-6 rounded-xl shadow-lg space-x-4">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
             Name

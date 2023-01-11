@@ -3,13 +3,13 @@ import React from 'react';
 const About: React.FC = () => {
     return (
       <section>
-        <h3 >About</h3>
-        <p>Motivated Software Engineer with 2 years of professional experience. 
-          A creative who is able to bring visions to products through code. 
-          Possesses the ability to work effectively with small or large teams
-           and able to adapt to constantly evolving work environments. 
-           Approaches all situations with enthusiasm and rapidly learns new things, 
-           with an eagerness to apply all knowledge gained.</p>
+        <p>Proven Software Engineer with 2+ years of experience in designing, 
+          developing, and deploying innovative software solutions. 
+          Adept at efficiently turning visions into successful products 
+          with a unique blend of creativity and technical expertise. 
+          Skilled in working with cross-functional teams, adaptable to 
+          fast-paced environments, and always eager to learn and apply 
+          new skills.</p>
       </section>
     );
   }
