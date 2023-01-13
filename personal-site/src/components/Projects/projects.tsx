@@ -12,19 +12,19 @@ const Projects: React.FC = () => {
   const projects: ProjectCard[] = [
     {
       id: 1,
-      title: 'Project 1',
+      title: 'React Project',
       imageUrl: '/project1.png',
       githubUrl: 'https://github.com/user/project1',
     },
     {
       id: 2,
-      title: 'Project 2',
+      title: 'Java Project',
       imageUrl: '/project2.png',
       githubUrl: 'https://github.com/user/project2',
     },
     {
       id: 3,
-      title: 'Project 3',
+      title: 'Python Project',
       imageUrl: '/project3.png',
       githubUrl: 'https://github.com/user/project3',
     },

@@ -12,7 +12,7 @@ interface TimelineEvent {
 
 const Timeline: React.FC = () => {
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl mx-auto  ">
       <div className="relative p-6">
       <Title>Timeline</Title>
         {timeline.map((event) => (
