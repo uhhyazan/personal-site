@@ -1,4 +1,5 @@
 import React from 'react';
+import OutlineButton from '../../Button/outlinebutton';
 
 interface ProjectCardProps {
     id: number;
@@ -10,12 +11,11 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ id, title, imageUrl, githubUrl }) => {
   return (
     <>
-        <div key={id} className="bg-gray-100 rounded-lg shadow-md p-4">
+        <div key={id} className="bg-white rounded-lg shadow-md p-4">
           <img src={imageUrl} alt={title} className="w-full rounded-lg" />
-          <h2 className="mt-2 text-xl font-bold text-gray-800">{title}</h2>
-          <a href={githubUrl} className="mt-2 block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-            View on GitHub
-          </a>
+          <h2 className="mt-2 text-xl font-bold text-stone-900">{title}</h2>
+          <OutlineButton buttonText='View on GitHub' href={githubUrl} /> 
+          
         </div>
     </>
   );

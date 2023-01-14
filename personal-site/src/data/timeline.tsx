@@ -21,7 +21,7 @@ const timeline = [
         date: '2014',
         role: 'Hello World!',
         duration: 'The Start',
-        description: 'I began my Software Engineering journey in my High Schools Computer Programming program.',
+        description: "I began my Software Engineering journey in my High School's Computer Programming program.",
     },
 
 ];
