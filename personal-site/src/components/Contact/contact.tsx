@@ -14,7 +14,7 @@ const Contact: React.FC<ContactProps> = () => {
       <form 
         action="https://getform.io/f/14dd19fb-d529-4d63-9da5-4b2ffb1a0745"
         method="POST"
-        className="mx-auto max-w-2xl bg-stone-50 p-6 rounded-xl shadow-lg space-x-4"
+        className="mx-auto max-2xl bg-stone-50 p-6 rounded-xl shadow-lg"
       >
         <div className="mb-4">
           <label className='text-stone-900' htmlFor="name">

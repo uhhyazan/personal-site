@@ -1,7 +1,11 @@
 import React from 'react';
 
+const buttonStyling = "bg-stone-200 p-2 font-semibold text-stone-900 inline-flex items-center space-x-2 rounded-full"
+
 const Footer: React.FC = () => {
   return (
+    
+
   <footer className="bottom-0 p-4 text-center mx-auto">
     <div className="py-5 text-center">
       <div className="container max-w-screen-lg mx-auto">
@@ -9,7 +13,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-wrap justify-center gap-2">
           <a 
             href="https://twitter.com/uhhyazan"
-            className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+            className={buttonStyling}>
             <svg
               className="w-5 h-5 fill-current"
               role="img"
@@ -21,7 +25,7 @@ const Footer: React.FC = () => {
           </a>
           <a
             href="https://www.instagram.com/uhhyazan/"
-            className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+            className={buttonStyling}>
               <svg
                 className="w-5 h-5 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +36,7 @@ const Footer: React.FC = () => {
           </a>
           <a 
             href="https://linkedin.com/in/yazanmusleh"
-            className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+            className={buttonStyling}>
             <svg
               className="w-5 h-5 fill-current"
               role="img"
@@ -46,7 +50,7 @@ const Footer: React.FC = () => {
           </a>
           <a 
             href="https://github.com/uhhyazan"
-            className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
+            className={buttonStyling}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -71,7 +75,7 @@ const Footer: React.FC = () => {
     </div>
     </div>
     <div>
-      <p className="text-md mb-4">
+      <p className="text-md mb-4 text-stone-800">
         &copy; {new Date().getFullYear()} Yazan Musleh. All rights reserved.
       </p>
     </div>
