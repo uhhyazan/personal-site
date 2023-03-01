@@ -4,8 +4,6 @@ const buttonStyling = "bg-stone-200 p-2 font-semibold text-stone-900 inline-flex
 
 const Footer: React.FC = () => {
   return (
-    
-
   <footer className="bottom-0 p-4 text-center mx-auto">
     <div className="py-5 text-center">
       <div className="container max-w-screen-lg mx-auto">
