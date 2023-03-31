@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(rgb(241, 245, 249), rgb(241, 245, 249), rgb(100, 116, 139))
+  background: linear-gradient(#f1f5f9, #f1f5f9, #818ea0)
 }
 
 section {

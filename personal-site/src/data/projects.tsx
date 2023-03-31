@@ -2,20 +2,23 @@ const projects = [
     {
         title: 'OptiTask',
         siteUrl: 'https://optitask.netlify.app/',
-        imageUrl: './images/Optitask.JPG',
+        imageUrl: './images/projects/Optitask.JPG',
         githubUrl: 'https://github.com/uhhyazan/optitask',
+        tags: ['React', 'TypeScript', 'Material UI'],
       },
       {
-        title: 'Java Project',
-        siteUrl: 'https://optitask.netlify.app/',
-        imageUrl: '/project2.png',
-        githubUrl: 'https://github.com/user/project2',
+        title: 'TinyURL Clone',
+        siteUrl: 'https://dev.to/uhhyazan/how-to-build-a-simple-tinyurl-clone-280f',
+        imageUrl: './images/projects/TinyUrl.JPG',
+        githubUrl: 'https://github.com/uhhyazan/tinyUrl-Frontend',
+        tags: ['Spring Boot', 'Java', 'React'],
       },
       {
-        title: 'Python Project',
-        siteUrl: 'https://optitask.netlify.app/',
-        imageUrl: '/project3.png',
-        githubUrl: 'https://github.com/user/project3',
+        title: 'Stilista',
+        siteUrl: 'https://stilista.netlify.app/',
+        imageUrl: './images/projects/stilista.jpg',
+        githubUrl: 'https://github.com/uhhyazan/online-shop',
+        tags: ['React', 'TypeScript', 'Material UI', 'REST'],
       },
 ];
 
