@@ -11,7 +11,7 @@ const projects = [
         siteUrl: 'https://dev.to/uhhyazan/how-to-build-a-simple-tinyurl-clone-280f',
         imageUrl: './images/projects/TinyUrl.JPG',
         githubUrl: 'https://github.com/uhhyazan/tinyUrl-Frontend',
-        tags: ['Spring Boot', 'Java', 'React'],
+        tags: ['Spring Boot', 'Java', 'React', 'REST'],
       },
       {
         title: 'Stilista',

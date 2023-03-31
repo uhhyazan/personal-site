@@ -2,14 +2,6 @@ import React from 'react';
 import projects from '../../data/projects';
 import ProjectCard from './ProjectCard/projectcard';
 
-interface ProjectCard {
-  title: string
-  siteUrl: string
-  imageUrl: string
-  githubUrl: string
-  tags: string[];
-}
-
 const Projects: React.FC = () => {
   return (
     <section>

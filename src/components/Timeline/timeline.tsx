@@ -3,13 +3,6 @@ import timeline from '../../data/timeline';
 import TimelineEvent from '../TimelineEvent/timelineevent';
 import Title from '../Title/title';
 
-interface TimelineEvent {
-  date: string;
-  role: string;
-  duration: string;
-  description: string;
-}
-
 const Timeline: React.FC = () => {
   return (
     <div className="max-w-3xl mx-auto  ">
